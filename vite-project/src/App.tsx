@@ -63,6 +63,14 @@ function App() {
     }));
   };
 
+  const checkAllTodos = () => {
+    setTodos(todos.map(todo => ({ ...todo, completed: true })));
+  };
+
+  const deleteAllTodos = () => {
+    setTodos([]);
+  };
+
   const sortedTodos = [...todos].sort((a, b) => {
     // First sort by completion status (incomplete todos first)
     if (a.completed !== b.completed) {
@@ -150,6 +158,29 @@ function App() {
           >
             🟢 Low
           </button>
+          
+          <div className="action-buttons">
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="action-btn check-all-btn"
+              onClick={checkAllTodos}
+              title="Check all todos"
+              disabled={todos.length === 0}
+            >
+              ✅ Check All
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="action-btn delete-all-btn"
+              onClick={deleteAllTodos}
+              title="Delete all todos"
+              disabled={todos.length === 0}
+            >
+              🗑️ Delete All
+            </motion.button>
+          </div>
         </div>
 
         <AnimatePresence>
