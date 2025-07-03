@@ -1,3 +1,3 @@
 # 🚀 Modern Todo List App
 
-A sleek, feature-rich todo list application built with React, TypeScript, and Vite. Features a beautiful black and blue gradient design with glassmorphism effects and smooth animations.
+A sleek, feature-rich todo list application built with React, TypeScript, and Vite. Features a beautiful black and blue gradient design with glassmorphism effects and smooth animations. TBC in src...
