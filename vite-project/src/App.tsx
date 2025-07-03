@@ -136,7 +136,7 @@ function App() {
             className={`priority-btn high ${selectedPriority === 'high' ? 'active' : ''}`}
             onClick={() => setSelectedPriority('high')}
           >
-            🚩 High
+            🔴 High
           </button>
           <button
             className={`priority-btn medium ${selectedPriority === 'medium' ? 'active' : ''}`}
@@ -171,7 +171,7 @@ function App() {
                   onClick={() => cyclePriority(todo.id)}
                   title={`Priority: ${todo.priority} (click to change)`}
                 >
-                  {todo.priority === 'high' && '🚩'}
+                  {todo.priority === 'high' && '🔴'}
                   {todo.priority === 'medium' && '🟡'}
                   {todo.priority === 'low' && '🟢'}
                 </button>
