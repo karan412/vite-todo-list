@@ -187,9 +187,6 @@ This todo app embraces modern web design principles:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🔮 Future Enhancements
 
@@ -202,6 +199,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Built with ❤️ using React, TypeScript, and Vite**
 
-*A modern take on the classic todo list with beautiful design and powerful features.*
