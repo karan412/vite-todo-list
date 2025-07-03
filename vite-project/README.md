@@ -106,7 +106,7 @@ The built files will be in the `dist` directory.
 
 ### Real-time Clock
 - Updates every second
-- Shows full date (e.g., "Friday, July 4, 2025")
+- Shows full date (e.g., "Friday, July 12, 2024")
 - Shows time in 12-hour format with AM/PM
 
 ### Animations
