@@ -28,7 +28,7 @@ A sleek, feature-rich todo list application built with React, TypeScript, and Vi
 
 ### 🏷️ **Priority System**
 - **Three Priority Levels:**
-  - 🔴 **High Priority** - Red flag for urgent tasks
+  - 🔴 **High Priority** - Red circle for urgent tasks
   - 🟡 **Medium Priority** - Yellow circle for normal tasks
   - 🟢 **Low Priority** - Green circle for low-priority items
 - **Smart Sorting** - Todos automatically sort by priority and completion status
